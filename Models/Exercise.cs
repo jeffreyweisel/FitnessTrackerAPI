@@ -6,4 +6,5 @@ public class Exercise
     public string Name { get; set; }
     public int WorkoutTypeId { get; set; }
     public WorkoutType WorkoutType { get; set; }
+    public List<WorkoutExercise>? WorkoutExercises { get; set; }
 }
