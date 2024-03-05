@@ -56,5 +56,6 @@ public class UserProfileDTO
             return GoalDeadliftMaxInPounds - MaxDeadlift;
         }
     }
+      public List<WorkoutDTO> Workouts { get; set; }
     
 }
